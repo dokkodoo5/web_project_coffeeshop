@@ -9,20 +9,45 @@
 }
 
 .header {
-  background-color: black;
+  background-color: #fff;
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
 }
-
 .nav {
+  display: flex;
+  justify-content: space-between;
 }
 .nav__logo {
+  height: 39px;
+  width: 105px;
 }
 .nav__links {
+  display: flex;
+  list-style-type: none;
+  column-gap: 20px;
 }
 .nav__link {
+}
+.header__tilte {
+  max-width: 709px;
+  margin-top: 183px;
+}
+.header__span-accent {
+  color: #2f80ed;
+  font-family: "Courier New", Courier, monospace;
+}
+.header__description {
+  max-width: 683px;
+}
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  right: 5px;
+  top: 124px;
 }
 .recipies {
 }
