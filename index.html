@@ -27,16 +27,14 @@
             class="nav__logo"
           />
           <ul class="nav__links">
-            <li class="nav__link">Recetas</li>
-            <li class="nan__link">Reservar una mesa</li>
+            <li class="nav__link" href="#recipes">Recetas</li>
+            <li class="nan__link" href="#reservation">Reservar una mesa</li>
             <li class="nav__link">Contactos</li>
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-accent"
-            >café&nbsp;de&nbsp; especialidad&nbsp;</span
-          ><br />
-          &nbsp;en&nbsp;tripleten&nbsp;peaks
+          <span class="header__span-accent">café de especialidad</span>
+          en Tripleten Peaks
         </h1>
         <p class="header__description">
           ¡Te damos la bienvenidad a nuestra zonda de estudio! aqui tenemos cafe
@@ -59,8 +57,40 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
+        <section class="recipes" id="recipes">
+          <h1 class="recipes__title">Recetas</h1>
+          <h2 class="recipes__subtitle">
+            Echa un vistazo a ñas recetas que hemos reunido para que elabores
+            tus propios snacks
+          </h2>
+          <div class="recipes__video">
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                title="The Ultimate AeroPress Technique (Episode #3)"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                Receta en cafetea fancesa ~15 min
+              </p>
+            </div>
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="La mejor técnica de prensa francesa"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">Receta en Aeropress ~5 min</p>
+            </div>
+          </div>
+        </section>
+        <section class="reservation" id="reservation"></section>
       </main>
       <footer class="footer"></footer>
     </div>
