@@ -231,8 +231,9 @@
 }
 .form__fielset-checkbox {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   border: #2f80ed solid;
+  justify-content: center;
 }
 .footer {
 }
