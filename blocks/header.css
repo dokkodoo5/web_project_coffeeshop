@@ -30,7 +30,6 @@
 .nav__link {
 }
 .header__title {
-  border: #2f80ed solid;
   max-width: 709px;
   flex-direction: column;
   margin-top: 183px;

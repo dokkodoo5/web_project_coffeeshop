@@ -15,5 +15,9 @@
   font-weight: 500;
   margin-right: 80px;
 }
+.nav__links:hover {
+  opacity: 70%;
+  color: #2f80ed;
+}
 .nav__link {
 }

@@ -47,7 +47,7 @@
 
 .footer__list {
   list-style-type: none;
-
+  gap: 16px;
   flex-direction: column;
   font-family: "Inter";
   font-style: normal;
@@ -61,7 +61,10 @@
 
 .footer__social-link {
   color: white;
-  margin-top: 16px;
+}
+.footer__social-link:hover {
+  opacity: 70%;
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
